@@ -45,6 +45,21 @@ Similarity + score threshold search
 
 It supports full offline/local inference when using Ollama models.
 
+(SemanticChunker + HuggingFace + FAISS)
+
+📚 This Google Colab implements a Retrieval-Augmented Generation (RAG) system using:
+
+Azure GPT-5 as the Large Language Model (LLM)
+
+HuggingFace local embeddings (no Azure embedding deployment required)
+
+SemanticChunker for smart, meaning-based text splitting
+
+Unstructured.io for high-quality PDF extraction
+
+FAISS vectorstore for fast similarity search
+
+The system loads a PDF, extracts semantic chunks, embeds them locally, stores them in FAISS, and then uses Azure GPT-5 to answer questions grounded ONLY in the retrieved context.
 💻 Colab Notebook:
 <[Colab Notebook](https://colab.research.google.com/gist/abdulrhman186883/e77a7373701bdcaaad96ef26b7f20844/semantic_chunking.ipynb)>
 
