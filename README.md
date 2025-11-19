@@ -1,4 +1,4 @@
-📊 Paul Graham RAG Evaluator — DeepEval Test Runner
+📊 Paul Graham RAG Evaluator — DeepEval Test Runner * paul_Deepeval.py *
 
 This repository contains an enhanced DeepEval test runner designed to evaluate Retrieval-Augmented Generation (RAG) performance on a Paul Graham essay dataset.
 It uses Azure OpenAI (GPT-5) as the judge model and runs multiple metrics (Answer Relevancy + Contextual Precision) on a batch of test cases loaded from CSV.
@@ -25,7 +25,7 @@ The script includes:
 
 
 
-📚 Paul Graham RAG Chatbot my_langChainPaulGhram.py
+📚 Paul Graham RAG Chatbot * my_langChainPaulGhram.py *
 
 A complete pipeline: scraping → parsing → chunking → embeddings → Chroma → RAG Q&A
 
