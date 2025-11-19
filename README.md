@@ -44,3 +44,7 @@ ChromaDB for local vector retrieval
 Similarity + score threshold search
 
 It supports full offline/local inference when using Ollama models.
+
+💻 Colab Notebook:
+<[Colab Notebook](https://colab.research.google.com/gist/abdulrhman186883/e77a7373701bdcaaad96ef26b7f20844/semantic_chunking.ipynb)>
+
