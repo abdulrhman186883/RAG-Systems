@@ -22,3 +22,25 @@ The script includes:
 ✔ Compact failure summary
 
 ✔ Warning if all tests pass (likely misconfiguration)
+
+
+
+📚 Paul Graham RAG Chatbot
+
+A complete pipeline: scraping → parsing → chunking → embeddings → Chroma → RAG Q&A
+
+This project builds a local RAG (Retrieval Augmented Generation) chatbot over all Paul Graham essays, using:
+
+Unstructured.io HTML parser
+
+LangChain Document abstraction
+
+RecursiveCharacterTextSplitter` for chunking
+
+Ollama for embeddings and LLM generation
+
+ChromaDB for local vector retrieval
+
+Similarity + score threshold search
+
+It supports full offline/local inference when using Ollama models.
