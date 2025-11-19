@@ -25,7 +25,7 @@ The script includes:
 
 
 
-📚 Paul Graham RAG Chatbot
+📚 Paul Graham RAG Chatbot my_langChainPaulGhram.py
 
 A complete pipeline: scraping → parsing → chunking → embeddings → Chroma → RAG Q&A
 
